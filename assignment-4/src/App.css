@@ -1,0 +1,54 @@
+.container {
+  width: 50%;
+  margin: 10px auto;
+  background-color: #000000;
+  padding: 20px 1px;
+  border-radius: 10px;
+}
+
+.card {
+  width: 50%;
+  margin: auto;
+  flex-direction: column;
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.user-input {
+  width: 90%;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-top: 12px;
+  padding: 10px;
+  border: 3px solid black;
+}
+
+.skills {
+  margin-top: 12px;
+  font-size: 1rem;
+}
+
+.skills label {
+  display: block;
+  margin-top: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.submit-btn {
+  display: block;
+  color: #fff;
+  background-color: #000000;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  margin: 15px auto;
+  padding: 8px 20px;
+}
+
+.display-data {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
